@@ -1,10 +1,18 @@
 
 // ReactDOM.render(<p>hey ayan here</p> , document.GetElementById("root"))
 
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
 ReactDOM.render(
-    <div>
-        <h1 className="header">This is JSX</h1>
-        <p>This is a paragraph</p>
-    </div>,
+    navbar,
     document.getElementById("root")
 )
