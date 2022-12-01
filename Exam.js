@@ -29,3 +29,5 @@ console.log(element)
 // JSX
 
 ReactDOM.render(element, document.getElementById("root"))
+
+// JSX is a kind of of function when it runs returns a object which react can interpret 
