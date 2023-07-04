@@ -1,0 +1,11 @@
+.antdForm{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    background: #274FC7;
+}

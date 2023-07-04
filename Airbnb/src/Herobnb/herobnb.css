@@ -1,0 +1,53 @@
+/* Mobile-first responsive styles */
+
+.hero {
+    padding: 20px;
+    /* text-align: center; */
+    
+  }
+  
+  .gallary {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .header {
+    font-size: 38px;
+    padding: 25px;
+    margin: 0px;
+  }
+  
+  .para {
+    font-size: 25px;
+    padding-left: 25px;
+    margin: 0px;  }
+  
+  /* Tablet and desktop styles */
+  
+  @media (min-width: 1030px) {
+    .hero {
+      padding: 40px;
+    }
+  
+    .header {
+      font-size: 62px;
+      margin-top: 40px;
+    }
+  
+    .para {
+      font-size: 38px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .gallary {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
